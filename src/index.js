@@ -1,13 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+// import styled from "styled-components";
+import App from './App';
+import reportWebVitals from './reportWebVitals'; 
+// import Styling from './styling';
+import './index.css';
+// const AppCMP= createGlobalStyle`
+//   p{color:red important;}
+//   *{background-color:green important;}
+// `;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode> 
+    {/* <Styling>
+      
+    </Styling> */}
+
+    
+       <App/> 
+    
+    
+     {/*    <ThemeProvider  theme={{
+  fg: "palevioletred",
+  bg: "white"
+}} >
+
+                
+
+
+         </ThemeProvider> */}
+        
+               {/* <AppCMP /> */}         
+                
   </React.StrictMode>
 );
 
